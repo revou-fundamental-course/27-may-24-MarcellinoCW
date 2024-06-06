@@ -1,0 +1,129 @@
+body{
+    background-color: #0d100f;
+    margin: 0;
+}
+
+.navigasi{
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #202223;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+        
+.tombol_navigasi{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #E3F2FD;
+}
+
+.page1{
+    padding-bottom: 550px;
+    animation: slideshow 50s infinite;
+     
+}
+
+
+@keyframes slideshow{
+    20%{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:url(/27-may-24-MarcellinoCW/gambar/Cina.jpg);
+    }
+
+    40%{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:url(/27-may-24-MarcellinoCW/gambar/korea.jpg) ;
+    }
+
+    60%{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:url(/27-may-24-MarcellinoCW/gambar/Rome.jpg) ;
+    }
+
+    80%{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:url(/27-may-24-MarcellinoCW/gambar/Swiss.jpg) ;
+    }
+
+    100%{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:url(/27-may-24-MarcellinoCW/gambar/tokyo-tower-night-landmark.jpg) ;
+    }
+    
+}
+
+.page2{
+    background-color: azure;
+    padding-bottom: 150px;
+    border-top: 30px solid;
+}
+
+
+.page2>h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 35px;
+}
+
+.page2>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jepang{
+    padding: 60px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-image:url(/27-may-24-MarcellinoCW/gambar/Bendera\ jepang.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.korea{
+    padding: 60px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-image:url(/27-may-24-MarcellinoCW/gambar/Bendera\ Korea.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.inggris{
+    padding: 60px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-image:url(/27-may-24-MarcellinoCW/gambar/Bendera\ Inggris.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.page3>h2{
+    text-align: center;
+    padding: 25px;
+    color: azure;
+    background-color: #555fc1;
+    margin: 0px;
+}
+
+.page3>form{
+    background-color: beige;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+}

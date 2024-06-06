@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body >
+    <nav class = "navigasi">
+    
+        <div class="kotak">
+           <a href="#Home" class="tombol_navigasi">Home</a>
+           <a href="#Destination" class="tombol_navigasi">Destination</a>
+           <a href="#Massage_us" class="tombol_navigasi">Massage Us</a>
+        </div>
+    </nav>
+    <section class="page1" id="Home">
+      
+    </section>
+    
+
+    <section class="page2" id ="Destination">
+       <h2>Destination</h2>
+       <br>
+       <br>
+       <div>
+          <div class="jepang" id="jepang"></div>
+          <div class="korea" id="korea"></div>
+          <div class="inggris" id="inggris"></div>
+        </div>
+
+    </section>
+   
+
+    <section class="page3" id="Massage_us">
+        <h2>Massage us</h2>
+        <form action="" class="form" id="data">
+
+            <dev>
+                <label for="text">Text:</label>
+                <input type="text" name="text" id="nama">
+            </dev>
+            <br>
+            <dev>
+                <label for="tanggal">Tanggal:</label>
+                <input type="date" name="tanggal" id="tanggal">
+            </dev>
+            <br>
+            <dev>
+
+               <label for="email">Email: </label>
+               <input type="email" name="email" id="email">
+            <br>
+            <dev>
+                <label for="raran">Saran:</label>
+                <br>
+                <textarea name="saran" id="saran"></textarea>
+            </dev>
+            <br>
+            <button type="button" onclick="validasi()">Submit</button>
+
+        </form>
+    
+        <div>
+            <p id="output_nama"></p>
+            <p id="output_tanggal"></p>
+            <p id="output_email"> </p>
+            <p id = "output_saran"></p>
+        </div>
+        
+        <div>
+            <p id="output_gagal"></p>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
